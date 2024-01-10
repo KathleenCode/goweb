@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lemon&family=Roboto+Mono:ital,wght@1,100;1,200&family=Tektur:wght@400;600&display=swap');
+
+body {
+    background-color: #FFFBAC;
+}
+.header {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1px;
+    border-radius: 5px;
+}
+.header span {
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 2rem;
+    letter-spacing: .3ch;
+    font-style: italic;
+}
+.header input {
+    display: none;
+}
+.header nav ul {
+    display: flex;
+    gap: 2rem;
+}
+.header nav ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    color: #61481C;
+    font-family: 'Tektur', sans-serif;
+    cursor: pointer;
+}
+.header nav ul li:hover {
+    transform: translateY(10px);
+}
+.header nav ul li i {
+    padding: .5rem;
+}
+.header button {
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    border: 4px dotted #61481C;
+    color: #DB005B;
+    background-color: #EBEF95;
+    border-radius: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+}
+
+.sect1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-image: radial-gradient(closest-side, #FCF5ED, #FB8B24);
+    padding: 5rem;
+    margin: 30px 10px;
+    border-radius: 5px;
+}
+.sect1 div p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.sect1 div button {
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    border: 2px solid #FF7777;
+    padding: .7rem 2rem;
+    border-radius: 50px;
+    color: #5F0F40;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+.sect1 div button:hover {
+    border: 5px solid #CE5A67;
+    background-color: #E48F45;
+    color: #662549;
+}
+.sect1 img {
+    height: 300px;
+    width: 300px;
+    border-bottom-left-radius:30%;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.sect1 img:hover {
+    height: 200px;
+    width: 200px;
+}
+.sect2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-image: radial-gradient(closest-side, #FB8B24, #FCF5ED);
+    padding: 5rem;
+    margin: 30px 10px;
+    border-radius: 5px;
+}
+.sect2 img {
+    height: 300px;
+    width: 300px;
+    border-bottom-left-radius:30%;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.sect2 img:hover {
+    height: 200px;
+    width: 200px;
+}
+.sect2 div h1 {
+    font-size: 2rem;
+    font-family: 'Lemon', serif;
+}
+.sect2 div p {
+    font-size: 1rem;
+    font-family: 'Tektur', sans-serif;
+}
+
+.sect3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-image: radial-gradient(#FCF5ED, #FB8B24);
+    padding: 5rem;
+    margin: 30px 10px;
+    border-radius: 5px;
+}
+.sect3 div h1 {
+    font-size: 2rem;
+    font-family: 'Lemon', serif;
+}
+.sect3 div p {
+    font-size: 1rem;
+    font-family: 'Tektur', sans-serif;
+}
+.sect3 div img {
+    height: 300px;
+    width: 300px;
+    border-bottom-left-radius:30%;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.sect3 img:hover {
+    height: 200px;
+    width: 200px;
+}
+
+.foot {
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+    align-items: center;
+}
+.foot p:first-child {
+    font-size: 1.1rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #99154E;
+    font-weight: bold;
+}
+.foot img {
+    height: 70px;
+    width: 100px;
+    border-bottom-left-radius:30%;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.foot img:hover {
+    height: 50px;
+    width: 70px;
+}
+.foot p:last-child {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: #AC0D0D;
+}
+.foot p:last-child i:nth-child(1){
+    color: #C70039;
+}
+.foot p:last-child i:nth-child(2){
+    color: #3F2305;
+}
+.foot p:last-child i:nth-child(3){
+    color: #102C57;
+}
+.foot p:last-child i:nth-child(4){
+    color: #15133C;
+}
+.foot p:last-child i:nth-child(5){
+    color: #4F200D;
+}
+.foot p:last-child i:nth-child(6){
+    color: #E6B325;
+}
+.foot p:last-child i:hover {
+    font-size: 2.3rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .header {
+        position: relative;
+        gap: .3rem;
+    }
+    .header nav ul {
+        flex-direction: column;
+    }
+    .header nav ul li {
+        display: none;
+        color: #102C57;
+    }
+    .header .chec input {
+        appearance: none;
+    }
+    .header .chec::before,
+    .header .chec::after,
+    .header .chec input{
+        content: "";
+        display: block;
+        width: 50px;
+        height: 10px;
+        background-color: #FFB26B;
+        color: #B01E68;
+        cursor: pointer;
+    }
+    .header .chec:has(input:checked)::before {
+        transform: rotate(45deg);
+        width: 40px;
+        transform-origin: left center;
+    }
+    .header .chec:has(input:checked)::after {
+        transform: rotate(-45deg);
+        width: 40px;
+        transform-origin: left center;
+    }
+    .header .chec:has(input:checked) + nav ul {
+        background-color: #E48F45;
+        padding: .7rem;
+        border-radius: 10px;
+        position: absolute;
+        top: 3rem;
+        left: 10rem;
+        right: 5rem;
+    }
+    .header .chec:has(input:checked) + nav ul li {
+        display: block;
+        background-color: #F1C376;
+        font-size: .9rem;
+        border-radius: 10px;
+        padding: .3rem;
+        cursor: pointer;
+        text-align: center;
+    }
+    .header input:checked {
+        opacity: 0;
+    }
+
+    .sect1 {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .sect1 div p {
+        font-size: 1.5rem;
+    }
+    .sect1 div button {
+        font-size: .7rem;
+        padding: .5rem 1rem;
+    }
+    .sect1 img {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .sect2 {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .sect2 img {
+        height: 200px;
+        width: 200px;
+    }
+    .sect2 div h1 {
+        font-size: 1.5rem;
+        padding-left: 5rem;
+    }
+    .sect2 div p {
+        font-size: .7rem;
+        padding-left: 5rem;
+    }
+    
+    .sect3 {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .sect3 div h1 {
+        font-size: 1.5rem;
+    }
+    .sect3 div p {
+        font-size: .7rem;
+    }
+    .sect3 div img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .foot {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .foot p:first-child {
+        font-size: .9rem;
+    }
+    .foot img {
+        height: 50px;
+        width: 70px;
+    }
+    .foot p:last-child {
+        gap: .5rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width: 1000px) {
+    .header {
+        position: relative;
+        gap: .5rem;
+    }
+    .header nav ul {
+        flex-direction: column;
+    }
+    .header nav ul li {
+        display: none;
+        color: #102C57;
+    }
+    .header .chec input {
+        appearance: none;
+    }
+    .header .chec::before,
+    .header .chec::after,
+    .header .chec input {
+        content: "";
+        display: block;
+        width: 70px;
+        height: 13px;
+        background-color: #E38B29;
+        color: #994D1C;
+        cursor: pointer;
+    }
+    .header .chec:has(input:checked)::before {
+        transform: rotate(45deg);
+        transform-origin: left center;
+        width: 50px;
+    }
+    .header .chec:has(input:checked)::after {
+        transform: rotate(-45deg);
+        transform-origin: left center;
+        width: 50px;
+    }
+    .header .chec:has(input:checked) + nav ul {
+        background-color: #FFC26F;
+        border-radius: 7px;
+        padding: .5rem;
+        position: absolute;
+        top: 4rem;
+        left: 17rem;
+        right: 5rem;
+    }
+    .header .chec:has(input:checked) + nav ul li {
+        display: block;
+        padding: .3rem;
+        font-size: 1.1rem;
+        text-align: center;
+        background-color: #C07F00;
+        color: #FFF9B0;
+        cursor: pointer;
+    }
+    .header .chec input:checked {
+        opacity: 0;
+    }
+
+    .sect1 {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .sect1 div p {
+        font-size: 1.7rem;
+    }
+    .sect1 div button {
+        font-size: .9rem;
+        padding: .5rem 1rem;
+    }
+    .sect1 img {
+        height: 250px;
+        width: 250px;
+    }
+    
+    .sect2 {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .sect2 img {
+        height: 250px;
+        width: 250px;
+    }
+    .sect2 div h1 {
+        font-size: 1.7rem;
+        padding-left: 5rem;
+    }
+    .sect2 div p {
+        font-size: .8rem;
+        padding-left: 5rem;
+    }
+    
+    .sect3 {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .sect3 div h1 {
+        font-size: 1.7rem;
+    }
+    .sect3 div p {
+        font-size: .9rem;
+    }
+    .sect3 div img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .foot {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .foot p:first-child {
+        font-size: 1.1rem;
+    }
+    .foot img {
+        height: 60px;
+        width: 90px;
+    }
+    .foot p:last-child {
+        gap: .7rem;
+        font-size: 1.3rem;
+    }
+}
